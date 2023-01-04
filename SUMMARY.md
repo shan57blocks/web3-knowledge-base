@@ -17,7 +17,7 @@
 - [SocialFi](ecosystem/socialFi.md)
 - [DAO](ecosystem/DAO.md)
 
-## 📡 Ethereum
+## 🚀 Ethereum
 
 - [Concepts](ethereum/concepts/README.md)
   - [Transaction](ethereum/concepts/transaction.md)
