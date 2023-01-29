@@ -50,6 +50,7 @@
 
 ## 💻 DApp
 
+- [What is Dapp](dapp/what-is-dapp.md)
 - [Wallet Connect](dapp/wallet-connect.md)
 - [Transaction Interaction](dapp/transaction-interaction.md)
 
