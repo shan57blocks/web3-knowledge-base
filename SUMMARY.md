@@ -30,6 +30,8 @@
   - [EtherScan](ethereum/tools/etherScan.md)
   - [HardHat](ethereum/tools/hardHat.md)
   - [Alchemy](ethereum/tools/alchemy.md)
+  - [Openzeppelin Defender](ethereum/tools/openzeppelin-defender.md)
+  - [Chainlink Automation](ethereum/tools/chainlink-automation.md)
 
 ## 🔍 Protocols
 
