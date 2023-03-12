@@ -1,28 +1,28 @@
-## Account Model
+# Account Model
 
 The account-based transaction model represents assets as balances within accounts, similar to bank accounts. A transaction in the account-based model triggers nodes to decrement the balance of the sender's account and increment the balance of the receiver's account.Ethereum uses this transaction model.See more detail of ethereum transaction, please refer to: [Ethereum Transaction](../../ethereum/concepts/transaction.md)
 
-### How an ACCOUNT transaction works
+## How an ACCOUNT transaction works
 
 The account model keeps track of all balances as a global state. This state can be understood as a database of all accounts, private keys, and contract-code controlled along with their current balances of the different assets on the network. Transactions are interpreted by the virtual machine in the network, and make the corresponding state changes to all accounts in the global state.
 
-![ACCOUNT-STATE-TRANSITION](../../assets/images/ACCOUNT-STATE-TRANSITION.jpg)
+![ACCOUNT-STATE-TRANSITION (Source: SEBA Research)](../../assets/images/account-state-transition.jpg)
 
-Assume Alice wants to transfer 8 ZEN to Bob.
+To better understand how an UTXO transaction been constructed, imagine Bob wants to pay 3.7 ETH to Alice:
 
-Her wallet will create a transaction that defines the spending account, the receiving account, and the amount to transfer.
-This transaction is then signed with Alice's private key.
-In this case, she is spending from her address, the receiver is Bob, and the amount to transfer is 8 ZEN.
+ 1. Check if Bob has enough ETH balance (4.4 ETH) to cover the payment (3.7 ETH).
 
-Nodes in the account model check if the sender’s balance is larger than or equal to the transferred amount.
+ 2. Send 3.7 ETH from Bob to Alice.
 
-When the system transitions to a new state (n+1) with the next block, Alice's account balance will globally be reduced to 2 ZEN, whereas Bob's balance will be increased to 9 ZEN.
+ 3. Bob's ETH balance subtract payment amount, and set to 4.4 - 3.7 = 0.7 ETH.
 
-### Transaction fees
+ 4. Alice's ETH balance add payment amount, and set to 7.15 + 3.7 = 10.85 ETH.
+
+## Transaction fees
 
 They are calculated based on the number of computations required to complete the state transition. Ethereum set out to be a world computer. Hence they decided that fees should be based on the number of computational resources consumed rather than storage capacity taken.
 
-### Replay attack & Nonce
+## Replay attack & Nonce
 
 A replay attack is when a payee broadcasts a fraudulent transaction in which they get paid a second time. If the fraudulent transaction were to be successful, the transaction would be executed a second time - it is replayed - and the sender would be charged twice the amount they wanted to transfer.
 
@@ -32,6 +32,6 @@ To combat this behavior, each account in Ethereum has a public viewable nonce th
 
 ## References
 
-<https://www.horizen.io/academy/utxo-vs-account-model/#comparing-the-utxo-and-account-model>
-<https://ethereum.org/en/developers/docs/transactions/>
-<https://ethereum.org/en/whitepaper/#ethereum-whitepaper>
+- [Comparing the UTXO and Account Model](https://www.horizen.io/academy/utxo-vs-account-model/#comparing-the-utxo-and-account-model)
+- [TRANSACTIONS](https://ethereum.org/en/developers/docs/transactions/)
+- [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/#ethereum-whitepaper)
