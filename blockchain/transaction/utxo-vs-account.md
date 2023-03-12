@@ -27,6 +27,6 @@ In this model, users submit transactions instructing nodes on what state transit
 
 ## References
 
-<https://www.horizen.io/academy/utxo-vs-account-model/#comparing-the-utxo-and-account-model>
-<https://www.youtube.com/watch?v=-xoCoZGJ9AQ>
-<https://www.youtube.com/watch?v=VT2o4KCEbes>
+- [Comparing the UTXO and Account Model](https://www.horizen.io/academy/utxo-vs-account-model/#comparing-the-utxo-and-account-model)
+- [Cryptoeconomics - 1.4 - UTXO Model](https://www.youtube.com/watch?v=-xoCoZGJ9AQ)
+- [4. Transactions and the UTXO model](https://www.youtube.com/watch?v=VT2o4KCEbes)
