@@ -36,10 +36,10 @@
 
 ## Smart Contract
 
-<!-- - [Solidity](smart-contract/solidity.md) -->
-<!-- - [Solidity](smart-contract/solidity.md)
-- [Testing/Deployment](smart-contract/testing-and-deployment.md)
-- [EVM](smart-contract/EVM.md) -->
+- [Solidity](smart-contract/solidity.md)
+- [Patterns & Best Practices](smart-contract/patterns-&-best-practices.md)
+- [Test & Deployment](smart-contract/test-&-deployment.md)
+- [EVM](smart-contract/EVM.md)
 
 ## Middle Layer
 
