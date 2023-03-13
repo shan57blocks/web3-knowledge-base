@@ -36,8 +36,6 @@
 
 ## Smart Contract
 
-[Solidity](smart-contract/solidity.md)
-
 <!-- - [Solidity](smart-contract/solidity.md)
 - [Testing/Deployment](smart-contract/testing-and-deployment.md)
 - [EVM](smart-contract/EVM.md) -->
