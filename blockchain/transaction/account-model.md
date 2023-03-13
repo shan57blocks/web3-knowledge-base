@@ -6,17 +6,17 @@ The account-based transaction model represents assets as balances within account
 
 The account model keeps track of all balances as a global state. This state can be understood as a database of all accounts, private keys, and contract-code controlled along with their current balances of the different assets on the network. Transactions are interpreted by the virtual machine in the network, and make the corresponding state changes to all accounts in the global state.
 
-![ACCOUNT-STATE-TRANSITION (Source: SEBA Research)](../../assets/images/account-state-transition.jpg)
+![ACCOUNT-STATE-TRANSITION (Source: SEBA Research)](../../assets/images/account-model-transaction.jpg)
 
 To better understand how an UTXO transaction been constructed, imagine Bob wants to pay 3.7 ETH to Alice:
 
- 1. Check if Bob has enough ETH balance (4.4 ETH) to cover the payment (3.7 ETH).
+1.  Check if Bob has enough ETH balance (4.4 ETH) to cover the payment (3.7 ETH).
 
- 2. Send 3.7 ETH from Bob to Alice.
+2.  Send 3.7 ETH from Bob to Alice.
 
- 3. Bob's ETH balance subtract payment amount, and set to 4.4 - 3.7 = 0.7 ETH.
+3.  Bob's ETH balance subtract payment amount, and set to 4.4 - 3.7 = 0.7 ETH.
 
- 4. Alice's ETH balance add payment amount, and set to 7.15 + 3.7 = 10.85 ETH.
+4.  Alice's ETH balance add payment amount, and set to 7.15 + 3.7 = 10.85 ETH.
 
 ## Transaction fees
 
