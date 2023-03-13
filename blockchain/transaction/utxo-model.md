@@ -1,7 +1,7 @@
 # UTXO Model
 
 The unspent transaction output (UTXO) model defines a ledger state where balances are not directly associated with addresses but with the outputs of transactions. In this model, transactions specify the outputs of previous transactions as inputs, which are consumed in order to create new outputs.
-![UTXO (Source: Cardano Forum)](../../assets/images/utxo-workflow.png)
+![UTXO (Source: Cardano Forum)](../../assets/images/utxo-state-graph.png)
 
 ## What is UTXO?
 
@@ -18,17 +18,17 @@ UTXOs use public key cryptography to identify and transfer ownership between hol
 
 When you initiate a transaction through your wallet, UTXOs with your information are located, unlocked, and the new owner's information is associated with the UTXO you transferred to them. They are locked once again, and that user can use them in transactions via the same process.
 
-![UTXO Transaction (Source: SEBA Research)](../../assets/images/utxo-state-transition.jpg)
+![UTXO Transaction (Source: SEBA Research)](../../assets/images/utxo-model-transaction.jpg)
 
 To better understand how an UTXO transaction been constructed, imagine Bob wants to pay 3.7 BTC to Alice:
 
-  1. Getting the right inputs, Bob's Wallet find inputs that can pay the amount she wants to send to Alice, and get a UTXO with 3 BTC and a UTXO with 0.8 BTC.
+1. Getting the right inputs, Bob's Wallet find inputs that can pay the amount she wants to send to Alice, and get a UTXO with 3 BTC and a UTXO with 0.8 BTC.
 
-  2. Using private signature to Unlock those UTXOs to spend.
-  
-  3. Creating the Outputs, lock the payment UTXO (3.7 BTC) with Alice'address, and create a change UTXO (0.1 BTC) to Bob.
-  
-  4. Send out the tranction
+2. Using private signature to Unlock those UTXOs to spend.
+
+3. Creating the Outputs, lock the payment UTXO (3.7 BTC) with Alice'address, and create a change UTXO (0.1 BTC) to Bob.
+
+4. Send out the tranction
 
 ## Transaction Fees
 
