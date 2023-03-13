@@ -2,23 +2,23 @@
 
 - [🙌 Welcome](README.md)
 
-## 🔗 Blockchain
+## Blockchain 🔗
 
 - [Introduction](blockchain/README.md)
 - [Wallet Address](blockchain/wallet-address.md)
 - [Transaction](blockchain/transaction.md)
 - [Consensus](blockchain/consensus.md)
 
-## 🌎 Ecosystem
+## Web3 🌎
 
-- [Web3](ecosystem/web3.md)
-- [DeFi](ecosystem/deFi.md)
-- [NFT](ecosystem/NFT.md)
-- [GameFi](ecosystem/gameFi.md)
-- [SocialFi](ecosystem/socialFi.md)
-- [DAO](ecosystem/DAO.md)
+- [Introduction](web3/README.md)
+- [DeFi](web3/deFi.md)
+- [NFT](web3/NFT.md)
+<!-- - [GameFi](web3/gameFi.md)
+- [SocialFi](web3/socialFi.md)
+- [DAO](web3/DAO.md) -->
 
-## 🚀 Ethereum
+## Ethereum 🚀
 
 - [Concepts](ethereum/concepts/README.md)
   - [Transaction](ethereum/concepts/transaction.md)
@@ -34,30 +34,30 @@
   - [Openzeppelin Defender](ethereum/tools/openzeppelin-defender.md)
   - [Chainlink Automation](ethereum/tools/chainlink-automation.md)
 
-## 🔍 Protocols
+<!-- ## 🔍 Protocols
 
-- [Uniswap](protocols/uniswap.md)
+- [Uniswap](protocols/uniswap.md) -->
 
-## 🔥 Smart Contract
+## Smart Contract 🔥
 
-- [Solidity](smart-contract/solidity.md)
+<!-- - [Solidity](smart-contract/solidity.md)
 - [Testing/Deployment](smart-contract/testing-and-deployment.md)
-- [EVM](smart-contract/EVM.md)
+- [EVM](smart-contract/EVM.md) -->
 
-## 🚡 Middle Layer
+## Middle Layer 🚡
 
 - [Private Key Management](middle-layer/private-key-management.md)
 - [Event Listener](middle-layer/event-listener.md)
 - [Bot](middle-layer/bot.md)
 - [Testing](middle-layer/testing.md)
 
-## 💻 DApp
+## DApp 💻
 
-- [What is Dapp](dapp/what-is-dapp.md)
+<!-- - [What is Dapp](dapp/what-is-dapp.md)
 - [Wallet Connect](dapp/wallet-connect/README.md)
   - [Connect to Wallet](dapp/wallet-connect/connect-to-wallet.md)
-- [Transaction Interaction](dapp/transaction-interaction.md)
+- [Transaction Interaction](dapp/transaction-interaction.md) -->
 
-## 👓 Case Study
+<!-- ## 👓 Case Study
 
-- [Case 1](case-study/case1.md)
+- [Case 1](case-study/case1.md) -->
