@@ -5,7 +5,7 @@
 ## Blockchain
 
 - [ Introduction](blockchain/README.md)
-- [ Wallet Address](blockchain/wallet-address.md)
+- [ Wallet](blockchain/wallet-address.md)
 - [ Transaction](blockchain/transaction.md)
 - [ Consensus](blockchain/consensus.md)
 
