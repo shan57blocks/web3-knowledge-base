@@ -25,6 +25,7 @@
   - [Event](ethereum/concepts/event.md)
   - [Gas](ethereum/concepts/gas.md)
 - [Tools](ethereum/tools/README.md)
+
   - [The Graph](ethereum/tools/the-graph.md)
   - [Ethers.js](ethereum/tools/ethers.md)
   - [EtherScan](ethereum/tools/etherScan.md)
@@ -33,7 +34,12 @@
   - [Openzeppelin Defender](ethereum/tools/openzeppelin-defender.md)
   - [Chainlink Automation](ethereum/tools/chainlink-automation.md)
 
-## SMART CONTRACTS
+## Smart Contract
+
+- [Solidity](smart-contract/solidity.md)
+- [Patterns & Best Practices](smart-contract/patterns-&-best-practices.md)
+- [Test & Deployment](smart-contract/test-&-deployment.md)
+- [EVM](smart-contract/EVM.md)
 
 ## Middle Layer
 
