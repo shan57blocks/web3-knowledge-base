@@ -4,10 +4,10 @@
 
 ## Blockchain
 
-- [Introduction](blockchain/README.md)
-- [Wallet](blockchain/wallet.md)
-- [Transaction](blockchain/transaction.md)
-- [Consensus](blockchain/consensus.md)
+- [ Introduction](blockchain/README.md)
+- [ Wallet Address](blockchain/wallet-address.md)
+- [ Transaction](blockchain/transaction.md)
+- [ Consensus](blockchain/consensus.md)
 
 ## Web3
 
@@ -16,7 +16,7 @@
 - [NFT](web3/NFT.md)
 <!-- - [GameFi](web3/gameFi.md)
 - [SocialFi](web3/socialFi.md)
-- [DAO](web3/DAO.md) -->
+- [DAO](ecosystem/DAO.md) -->
 
 ## Ethereum
 
@@ -34,7 +34,7 @@
   - [Openzeppelin Defender](ethereum/tools/openzeppelin-defender.md)
   - [Chainlink Automation](ethereum/tools/chainlink-automation.md)
 
-<!-- ## 🔍 Protocols
+<!-- ## Protocols
 
 - [Uniswap](protocols/uniswap.md) -->
 
