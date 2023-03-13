@@ -1,8 +1,8 @@
 # Table of contents
 
-- [Welcome1](README.md)
+- [Welcome](README.md)
 
-## Blockchain1
+## Blockchain
 
 - [ Introduction](blockchain/README.md)
 - [ Wallet](blockchain/wallet-address.md)
@@ -18,7 +18,7 @@
 - [SocialFi](web3/socialFi.md)
 - [DAO](ecosystem/DAO.md) -->
 
-## Ethereum1
+## Ethereum
 
 - [Concepts](ethereum/concepts/README.md)
   - [Transaction](ethereum/concepts/transaction.md)
@@ -38,20 +38,20 @@
 
 - [Uniswap](protocols/uniswap.md) -->
 
-## Smart Contract1
+## Smart Contract
 
 <!-- - [Solidity](smart-contract/solidity.md)
 - [Testing/Deployment](smart-contract/testing-and-deployment.md)
 - [EVM](smart-contract/EVM.md) -->
 
-## Middle Layer1
+## Middle Layer
 
 - [Private Key Management](middle-layer/private-key-management.md)
 - [Event Listener](middle-layer/event-listener.md)
 - [Bot](middle-layer/bot.md)
 - [Testing](middle-layer/testing.md)
 
-## DApp1
+## DApp
 
 <!-- - [What is Dapp](dapp/what-is-dapp.md)
 - [Wallet Connect](dapp/wallet-connect/README.md)
