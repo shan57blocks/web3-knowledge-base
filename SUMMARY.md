@@ -34,11 +34,9 @@
   - [Openzeppelin Defender](ethereum/tools/openzeppelin-defender.md)
   - [Chainlink Automation](ethereum/tools/chainlink-automation.md)
 
-<!-- ## Protocols
-
-- [Uniswap](protocols/uniswap.md) -->
-
 ## Smart Contract
+
+[Solidity](smart-contract/solidity.md)
 
 <!-- - [Solidity](smart-contract/solidity.md)
 - [Testing/Deployment](smart-contract/testing-and-deployment.md)
