@@ -2,7 +2,7 @@
 description: It is time to align your chakras
 ---
 
-# Welcome2
+# Welcome
 
 Welcome to the 57blocks Web3 Knowledge Base!
 
