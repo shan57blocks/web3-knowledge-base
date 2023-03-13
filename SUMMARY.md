@@ -34,12 +34,12 @@
   - [Openzeppelin Defender](ethereum/tools/openzeppelin-defender.md)
   - [Chainlink Automation](ethereum/tools/chainlink-automation.md)
 
-## Smart Contract
+## SMART CONTRACTS
 
-- [Solidity](smart-contract/solidity.md)
+<!-- - [Solidity](smart-contract/solidity.md)
 - [Patterns & Best Practices](smart-contract/patterns-&-best-practices.md)
 - [Test & Deployment](smart-contract/test-&-deployment.md)
-- [EVM](smart-contract/EVM.md)
+- [EVM](smart-contract/EVM.md) -->
 
 ## Middle Layer
 
