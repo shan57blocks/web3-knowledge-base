@@ -4,7 +4,7 @@ In this post we will introduce some battlefield tested react libraries in order 
 
 A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps
 
-## Pros
+## Features
 
 1. Supports many different wallet connectors
 2. Basic hooks for managing account
@@ -19,7 +19,7 @@ A simple, maximally extensible, dependency minimized framework for building mode
 
 wagmi is a collection of React Hooks containing everything you need to start working with Ethereum. wagmi makes it easy to "Connect Wallet," display ENS and balance information, sign messages, interact with contracts, and much more — all with caching, request deduplication, and persistence.
 
-## Pros
+## Features
 
 1. 20+ hooks for working with wallets, ENS, contracts, transactions, signing, etc.
 2. Built-in wallet connectors for MetaMask, WalletConnect, Coinbase Wallet, and Injected
