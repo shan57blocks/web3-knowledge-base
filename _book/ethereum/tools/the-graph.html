@@ -1,0 +1,785 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>The Graph · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ethers.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Welcome
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Blockchain</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../blockchain/">
+            
+                <a href="../../blockchain/">
+            
+                    
+                     Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../blockchain/wallet-address.md">
+            
+                <span>
+            
+                    
+                     Wallet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../blockchain/transaction.html">
+            
+                <a href="../../blockchain/transaction.html">
+            
+                    
+                     Transaction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../blockchain/consensus.html">
+            
+                <a href="../../blockchain/consensus.html">
+            
+                    
+                     Consensus
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Web3</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../web3/">
+            
+                <a href="../../web3/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../web3/deFi.html">
+            
+                <a href="../../web3/deFi.html">
+            
+                    
+                    DeFi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../../web3/NFT.html">
+            
+                <a href="../../web3/NFT.html">
+            
+                    
+                    NFT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../../web3/socialFi.html">
+            
+                <a href="../../web3/socialFi.html">
+            
+                    
+                    SocialFi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../../ecosystem/DAO.md">
+            
+                <span>
+            
+                    
+                    DAO
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Ethereum</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../concepts/">
+            
+                <a href="../concepts/">
+            
+                    
+                    Concepts
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../concepts/transaction.html">
+            
+                <a href="../concepts/transaction.html">
+            
+                    
+                    Transaction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../concepts/event.html">
+            
+                <a href="../concepts/event.html">
+            
+                    
+                    Event
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../concepts/gas.html">
+            
+                <a href="../concepts/gas.html">
+            
+                    
+                    Gas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="4.2.1" data-path="the-graph.html">
+            
+                <a href="the-graph.html">
+            
+                    
+                    The Graph
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="ethers.html">
+            
+                <a href="ethers.html">
+            
+                    
+                    Ethers.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="etherScan.html">
+            
+                <a href="etherScan.html">
+            
+                    
+                    EtherScan
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.4" data-path="hardHat.html">
+            
+                <a href="hardHat.html">
+            
+                    
+                    HardHat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.5" data-path="alchemy.html">
+            
+                <a href="alchemy.html">
+            
+                    
+                    Alchemy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.6" data-path="openzeppelin-defender.html">
+            
+                <a href="openzeppelin-defender.html">
+            
+                    
+                    Openzeppelin Defender
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.7" data-path="chainlink-automation.html">
+            
+                <a href="chainlink-automation.html">
+            
+                    
+                    Chainlink Automation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Smart Contract</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../smart-contract/solidity.html">
+            
+                <a href="../../smart-contract/solidity.html">
+            
+                    
+                    Solidity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../../smart-contract/patterns-&-best-practices.html">
+            
+                <a href="../../smart-contract/patterns-&-best-practices.html">
+            
+                    
+                    Patterns & Best Practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../../smart-contract/test-&-deployment.html">
+            
+                <a href="../../smart-contract/test-&-deployment.html">
+            
+                    
+                    Test & Deployment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../../smart-contract/EVM.html">
+            
+                <a href="../../smart-contract/EVM.html">
+            
+                    
+                    EVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Middle Layer</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../../middle-layer/private-key-management.html">
+            
+                <a href="../../middle-layer/private-key-management.html">
+            
+                    
+                    Private Key Management
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../../middle-layer/event-listener.md">
+            
+                <span>
+            
+                    
+                    Event Listener
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../../middle-layer/bot.html">
+            
+                <a href="../../middle-layer/bot.html">
+            
+                    
+                    Bot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../../middle-layer/testing.html">
+            
+                <a href="../../middle-layer/testing.html">
+            
+                    
+                    Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">DApp</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../../dapp/what-is-dapp.html">
+            
+                <a href="../../dapp/what-is-dapp.html">
+            
+                    
+                    What is Dapp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../../dapp/wallet-connect/">
+            
+                <a href="../../dapp/wallet-connect/">
+            
+                    
+                    Wallet Connect
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.2.1" data-path="../../dapp/wallet-connect/connect-to-wallet.html">
+            
+                <a href="../../dapp/wallet-connect/connect-to-wallet.html">
+            
+                    
+                    Connect to Wallet
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../../dapp/transaction-interaction.html">
+            
+                <a href="../../dapp/transaction-interaction.html">
+            
+                    
+                    Transaction Interaction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >The Graph</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><em>Author: lily.hu</em></p>
+<h2 id="what-is-the-graph">What is The Graph?</h2>
+<p><a href="https://thegraph.com/en/" target="_blank">The Graph</a> is an open-sourced software used to collect, process and store data from various blockchain applications to facilitate information retrieval. It supports Ethereum blockchain, EVM-compatible chains and Layer 2 chains. Currently, The Graph supports 31 blockchain networks including Fantom, Cosmos and Arbitrum. </p>
+<p><a href="https://thegraph.com/docs/en/about/" target="_blank">More</a></p>
+<h2 id="how-the-graph-works">How The Graph Works</h2>
+<p>The Graph learns what and how to index Ethereum data based on subgraph descriptions, known as the subgraph manifest. The subgraph description defines the smart contracts of interest for a subgraph, the events in those contracts to pay attention to, and how to map event data to data that The Graph will store in its database.</p>
+<p><a href="https://thegraph.com/docs/en/about/#how-the-graph-works" target="_blank">More</a></p>
+<h2 id="the-graph-network">The Graph Network</h2>
+<p><a href="https://thegraph.com/docs/en/network/overview/" target="_blank">The Graph Network</a> is a decentralized indexing protocol for organizing blockchain data. The Graph Network consists of Indexers, Curators and Delegators that provide services to the network, and serve data to Web3 applications. Consumers use the applications and consume the data.</p>
+<p>There are three types of users who contribute to organizing data in its protocol.</p>
+<ul>
+<li><a href="https://thegraph.com/docs/en/network/indexing/" target="_blank">Indexers</a></li>
+</ul>
+<p>Indexers are node operators in The Graph Network that stake Graph Tokens (GRT) in order to provide indexing and query processing services</p>
+<ul>
+<li><a href="https://thegraph.com/docs/en/network/delegating/" target="_blank">Delegators</a></li>
+</ul>
+<p>Delegators are network participants who delegate (i.e., &quot;stake&quot;) GRT to one or more Indexers. Delegators contribute to securing the network without running a Graph Node themselves</p>
+<ul>
+<li><a href="https://thegraph.com/docs/en/network/curating/" target="_blank">Curators</a></li>
+</ul>
+<p>Curators are critical to the Graph decentralized economy. They use their knowledge of the web3 ecosystem to assess and signal on the subgraphs that should be indexed by The Graph Network.</p>
+<ul>
+<li><a href="https://thegraph.com/docs/en/network/developing/" target="_blank">Developers</a></li>
+</ul>
+<p>Developers build and query subgraphs to retrieve blockchain data. Since subgraphs are open source, developers can query existing subgraphs to load blockchain data into their dapps. Developers pay for queries they make in GRT, which is distributed to network participants.</p>
+<h2 id="core-products-of-the-graph">Core Products of The Graph</h2>
+<h3 id="graph-explorer">Graph Explorer</h3>
+<p><a href="https://thegraph.com/explorer" target="_blank">The Graph Explorer</a> is your decentralized portal into the world of subgraphs and network data. The Graph Explorer consists of multiple parts where you can interact with other subgraph developers, dapp developers, Curators, Indexers, and Delegators. For a general overview of the Graph Explorer</p>
+<p><a href="https://thegraph.com/docs/en/network/explorer/" target="_blank">More</a></p>
+<h3 id="subgraph-studio">Subgraph Studio</h3>
+<p><a href="https://thegraph.com/studio/" target="_blank">Subgraph Studio</a> is a dapp for creating, managing, and publishing subgraphs and API keys.</p>
+<p><a href="https://thegraph.com/docs/en/deploying/subgraph-studio/" target="_blank">How to Use the Subgraph Studio</a>
+<a href="https://thegraph.com/docs/en/deploying/subgraph-studio-faqs/" target="_blank">Subgraph Studio FAQs</a></p>
+<h4 id="subgraph">Subgraph</h4>
+<p>A subgraph extracts data from a blockchain, processing it and storing it so that it can be easily queried via GraphQL.</p>
+<p><a href="https://thegraph.com/docs/en/developing/creating-a-subgraph/" target="_blank">Creating a subgraph</a></p>
+<p><a href="https://thegraph.com/docs/en/deploying/deploying-a-subgraph-to-studio/" target="_blank">Deploying a Subgraph to the Subgraph Studio</a></p>
+<p><a href="https://thegraph.com/docs/en/deploying/deploying-a-subgraph-to-hosted/" target="_blank">Deploying a Subgraph to the Hosted Service</a></p>
+<p><a href="https://thegraph.com/docs/en/publishing/publishing-a-subgraph/" target="_blank">Publishing a Subgraph to the Decentralized Network</a></p>
+<p><a href="https://thegraph.com/docs/en/managing/transferring-subgraph-ownership/" target="_blank">Transferring Subgraph Ownership</a></p>
+<p><a href="https://thegraph.com/docs/en/managing/deprecating-a-subgraph/" target="_blank">Deprecating a Subgraph</a></p>
+<p><a href="https://thegraph.com/docs/en/querying/querying-the-graph/" target="_blank">Querying The Graph</a></p>
+<p><a href="https://thegraph.com/docs/en/querying/querying-the-hosted-service/" target="_blank">Querying the Hosted Service</a></p>
+<p><a href="https://thegraph.com/docs/en/cookbook/quick-start/" target="_blank">Subgraph Cookbook</a></p>
+<h3 id="hosted-service">Hosted Service</h3>
+<p>The Graph Network supports only the Ethereum blockchain. All other blockchains, such as Avalanche and Celo, are currently supported by the <a href="https://thegraph.com/hosted-service" target="_blank">Hosted Servic</a>, which will be shut down by the end of Q1 2023 with the DApps migrating to the decentralized Graph Explorer.</p>
+<p><a href="https://thegraph.com/docs/en/deploying/hosted-service/" target="_blank">More</a></p>
+<h2 id="recommended-reading">Recommended Reading</h2>
+<p><a href="https://shardeum.org/blog/what-is-the-graph/" target="_blank">What is the Graph?</a></p>
+<p><a href="https://learn.bybit.com/altcoins/what-is-the-graph-crypto-grt/" target="_blank">The Graph (GRT): Search Engine of the Future</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Tools">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ethers.html" class="navigation navigation-next " aria-label="Next page: Ethers.js">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"The Graph","level":"4.2.1","depth":2,"next":{"title":"Ethers.js","level":"4.2.2","depth":2,"path":"ethereum/tools/ethers.md","ref":"ethereum/tools/ethers.md","articles":[]},"previous":{"title":"Tools","level":"4.2","depth":1,"path":"ethereum/tools/README.md","ref":"ethereum/tools/README.md","articles":[{"title":"The Graph","level":"4.2.1","depth":2,"path":"ethereum/tools/the-graph.md","ref":"ethereum/tools/the-graph.md","articles":[]},{"title":"Ethers.js","level":"4.2.2","depth":2,"path":"ethereum/tools/ethers.md","ref":"ethereum/tools/ethers.md","articles":[]},{"title":"EtherScan","level":"4.2.3","depth":2,"path":"ethereum/tools/etherScan.md","ref":"ethereum/tools/etherScan.md","articles":[]},{"title":"HardHat","level":"4.2.4","depth":2,"path":"ethereum/tools/hardHat.md","ref":"ethereum/tools/hardHat.md","articles":[]},{"title":"Alchemy","level":"4.2.5","depth":2,"path":"ethereum/tools/alchemy.md","ref":"ethereum/tools/alchemy.md","articles":[]},{"title":"Openzeppelin Defender","level":"4.2.6","depth":2,"path":"ethereum/tools/openzeppelin-defender.md","ref":"ethereum/tools/openzeppelin-defender.md","articles":[]},{"title":"Chainlink Automation","level":"4.2.7","depth":2,"path":"ethereum/tools/chainlink-automation.md","ref":"ethereum/tools/chainlink-automation.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","livereload"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"introducetogitbook"},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ethereum/tools/the-graph.md","mtime":"2023-03-10T09:56:17.923Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-03-14T10:05:57.582Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

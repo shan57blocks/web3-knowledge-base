@@ -1,13 +1,8 @@
 {
-  "plugins": [
-    "splitter",
-    "github",
-    "prism",
-    "-highlight",
-    "page-footer-ex",
-    "anchor-navigation-ex",
-    "expandable-chapters",
-    "advanced-emoji",
-    "bootstrap-callout"
-  ]
+  "plugins": ["disqus"],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "introducetogitbook"
+    }
+  }
 }
