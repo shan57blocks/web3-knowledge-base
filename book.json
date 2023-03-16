@@ -2,7 +2,7 @@
   "plugins": ["disqus"],
   "pluginsConfig": {
     "disqus": {
-      "shortName": "introducetogitbook"
+      "shortName": "57blocks-web3-knowledge-base"
     }
   }
 }
