@@ -6,7 +6,8 @@
     "copy-files": "rimraf ./node_modules/npm/node_modules/graceful-fs",
     "serve": "gitbook serve",
     "plugin": "gitbook install",
-    "build": "gitbook build"
+    "build": " gitbook build",
+    "deploy": " npm run plugin && npm run build"
   },
   "dependencies": {
     "gitbook-cli": "2.1.2",
