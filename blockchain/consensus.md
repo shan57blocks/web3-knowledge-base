@@ -1,6 +1,10 @@
-# What is consensus？
+# Consensus
 
-_Author: Martin_
+An introduction to the consensus mechanism of blockchain.
+
+_martin@57blocks.com_
+
+## What is consensus？
 
 Blockchain consensus is the process by which all participants in a blockchain network reach agreement on the current state of the network. This agreement is critical for ensuring the security and integrity of the blockchain, as it ensures that all participants have a consistent view of the network and that transactions are properly validated and processed.
 
@@ -10,9 +14,9 @@ There are several consensus mechanisms used in different blockchain networks, in
 
 In general, the consensus mechanism is a crucial component of any blockchain network, as it determines the security, efficiency, and decentralization of the network. A well-designed consensus mechanism is essential for ensuring the long-term success and viability of the network, and choosing the right consensus mechanism is an important decision for any blockchain project.
 
-# Category
+## Category
 
-## PoW
+### PoW
 
 ![PoW flow](../assets/images/pow_flow.jpg)
 
@@ -22,11 +26,11 @@ The first node to find a suitable nonce gets the bookkeeping right. After the no
 
 Finding a nonce that meets the requirements is very difficult and requires nodes to consume a lot of computing power. With the continuous accumulation of valid blocks, malicious nodes need to consume a huge amount of computing power to overthrow the previous blocks and complete the double-spending attack.
 
- Please read [Mining and Consensus](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10.asciidoc) to learn the PoW consensus details.
+Please read [Mining and Consensus](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10.asciidoc) to learn the PoW consensus details.
 
-## PoS
+### PoS
 
- ![PoS flow](../assets/images/pos_flow.jpg)
+![PoS flow](../assets/images/pos_flow.jpg)
 
 In the PoS consensus, nodes compete for accounting rights not by computing power but by rights (tokens). PoS also needs to calculate the hash value, but unlike PoW, it does not require continuous violent calculation to find the nonce value.
 
@@ -34,9 +38,9 @@ Each node only needs to calculate Hash once in each round of consensus. The more
 
 Please read [Proof of stake](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/) to learn more.
 
-## DPoS
+### DPoS
 
- ![DPoS flow](../assets/images/dpos_flow.jpg)
+![DPoS flow](../assets/images/dpos_flow.jpg)
 
 Delegated Proof-of-Stake (DPoS) aims to address some of the scalability, security, and decentralization issues associated with PoW and PoS while providing a more efficient way to reach consensus on the network.
 
@@ -48,17 +52,17 @@ Several nodes with the most votes from holders become the block producing nodes,
 
 Please read [DPoS Consensus Algorithm - The Missing White Paper](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper) to learn more.
 
-## PBFT
+### PBFT
 
- ![PBFT flow](../assets/images/pbft_flow.jpg)
+![PBFT flow](../assets/images/pbft_flow.jpg)
 
 PBFT is a Byzantine Fault Tolerance protocol with low algorithm complexity and high practicality in distributed systems. PBFT is mainly used in consortium blockchains. PBFT contains five phases: request, pre-prepare, prepare, commit and reply. The primary node forwards the message sent by the client to the other three nodes. In the case that node 3 is crashed, one message goes through five phases to reach a consensus among these nodes. Finally, these nodes reply to the client to complete a round of consensus. PBFT guarantees nodes maintain a common state and take a consistent action in each round of consensus. PBFT achieves the goal of strong consistency, thus it is an absolute-finality consensus protocol. As mentioned before, EOS takes a combined consensus protocol.
 
- Please read [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf) to learn more.
+Please read [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf) to learn more.
 
-## PoH
+### PoH
 
- ![PoH flow](../assets/images/poh_flow.png)
+![PoH flow](../assets/images/poh_flow.png)
 
 Keeping track of the order of transactions is vital for cryptocurrencies. Bitcoin does this by bundling transactions into blocks with a single timestamp. Each node has to validate these blocks in consensus with other nodes. However, this process results in significant waiting time for nodes to confirm a block across the network. Solana takes a different approach called Proof of History (PoH).
 
@@ -72,7 +76,7 @@ PoH is not a consensus mechanism but instead, a way of shortening the time spent
 
 Please read [Proof of History: A Clock for Blockchain](https://medium.com/solana-labs/proof-of-history-a-clock-for-blockchain-cf47a61a9274) to learn more.
 
-# Comparison
+## Comparison
 
 | Property          | PoW                    | PoS                    | DPoS                   | PBFT              |
 | :---------------- | :--------------------- | :--------------------- | :--------------------- | :---------------- |
@@ -82,10 +86,12 @@ Please read [Proof of History: A Clock for Blockchain](https://medium.com/solana
 | Scalability       | Good                   | Good                   | Good                   | Bad               |
 | Application       | Public                 | Public                 | Public                 | Permissioned      |
 
- Please read [Analysis of the main consensus protocols of blockchain](https://www.sciencedirect.com/science/article/pii/S240595951930164X) to learn the details.
+Please read [Analysis of the main consensus protocols of blockchain](https://www.sciencedirect.com/science/article/pii/S240595951930164X) to learn the details.
 
-# Reference
+## References
 
-- [Analysis of the main consensus protocols of blockchain](https://www.sciencedirect.com/science/article/pii/S240595951930164X)
-- [Proof of History: A Clock for Blockchain](https://medium.com/solana-labs/proof-of-history-a-clock-for-blockchain-cf47a61a9274)
-- [What is solana](https://academy.binance.com/en/articles/what-is-solana-sol)
+[Analysis of the main consensus protocols of blockchain](https://www.sciencedirect.com/science/article/pii/S240595951930164X)
+
+[Proof of History: A Clock for Blockchain](https://medium.com/solana-labs/proof-of-history-a-clock-for-blockchain-cf47a61a9274)
+
+[What is solana](https://academy.binance.com/en/articles/what-is-solana-sol)
