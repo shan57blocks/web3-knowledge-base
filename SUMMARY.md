@@ -6,7 +6,10 @@
 
 - [ Introduction](blockchain/README.md)
 - [ Wallet](blockchain/wallet.md)
-- [ Transaction](blockchain/transaction.md)
+- [ Transaction](blockchain/transaction/README.md)
+  - [UTXO Model](blockchain/transaction/utxo-model.md)
+  - [Account Model](blockchain/transaction/account-model.md)
+  - [UTXO vs Account](blockchain/transaction/utxo-vs-account.md)
 - [ Consensus](blockchain/consensus.md)
 
 ## Web3

@@ -1,6 +1,10 @@
 # Account Model
 
-The account-based transaction model represents assets as balances within accounts, similar to bank accounts. A transaction in the account-based model triggers nodes to decrement the balance of the sender's account and increment the balance of the receiver's account.Ethereum uses this transaction model.See more detail of ethereum transaction, please refer to: [Ethereum Transaction](../../ethereum/concepts/transaction.md)
+_victor@57blocks.com_
+
+The account-based transaction model represents assets as balances within accounts, similar to bank accounts.
+A transaction in the account-based model triggers nodes to decrement the balance of the sender's account and increment the balance of the receiver's account.
+Ethereum uses this transaction model. See more detail of ethereum transaction, please refer to: [Ethereum Transaction](../../ethereum/concepts/transaction.md)
 
 ## How an ACCOUNT transaction works
 
@@ -32,6 +36,8 @@ To combat this behavior, each account in Ethereum has a public viewable nonce th
 
 ## References
 
-- [Comparing the UTXO and Account Model](https://www.horizen.io/academy/utxo-vs-account-model/#comparing-the-utxo-and-account-model)
-- [TRANSACTIONS](https://ethereum.org/en/developers/docs/transactions/)
-- [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/#ethereum-whitepaper)
+[Comparing the UTXO and Account Model](https://www.horizen.io/academy/utxo-vs-account-model/#comparing-the-utxo-and-account-model)
+
+[TRANSACTIONS](https://ethereum.org/en/developers/docs/transactions/)
+
+[Ethereum Whitepaper](https://ethereum.org/en/whitepaper/#ethereum-whitepaper)

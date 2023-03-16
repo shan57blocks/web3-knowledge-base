@@ -1,5 +1,7 @@
 # UTXO Model
 
+_victor@57blocks.com_
+
 The unspent transaction output (UTXO) model defines a ledger state where balances are not directly associated with addresses but with the outputs of transactions. In this model, transactions specify the outputs of previous transactions as inputs, which are consumed in order to create new outputs.
 ![UTXO (Source: Cardano Forum)](../../assets/images/utxo-state-graph.png)
 
@@ -46,7 +48,10 @@ Wallets maintain a record of all addresses controlled by a user and monitor the 
 
 ## References
 
-- [bitcoinbook/bitcoinbook - Transactions](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc)
-- [Comparing the UTXO and Account Model](https://www.horizen.io/academy/utxo-vs-account-model/#comparing-the-utxo-and-account-model)
-- [Bitcoin's UTXO Model](https://river.com/learn/bitcoins-utxo-model/)
-- [UTXO Model: Definition, How It Works, and Goals](https://www.investopedia.com/terms/u/utxo.asp)
+[bitcoinbook/bitcoinbook - Transactions](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc)
+
+[Comparing the UTXO and Account Model](https://www.horizen.io/academy/utxo-vs-account-model/#comparing-the-utxo-and-account-model)
+
+[Bitcoin's UTXO Model](https://river.com/learn/bitcoins-utxo-model/)
+
+[UTXO Model: Definition, How It Works, and Goals](https://www.investopedia.com/terms/u/utxo.asp)
