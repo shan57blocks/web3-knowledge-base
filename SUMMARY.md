@@ -5,7 +5,7 @@
 ## Blockchain
 
 - [ Introduction](blockchain/README.md)
-- [ Wallet](blockchain/wallet-address.md)
+- [ Wallet](blockchain/wallet.md)
 - [ Transaction](blockchain/transaction.md)
 - [ Consensus](blockchain/consensus.md)
 
@@ -14,9 +14,6 @@
 - [Introduction](web3/README.md)
 - [DeFi](web3/deFi.md)
 - [NFT](web3/NFT.md)
-<!-- - [GameFi](web3/gameFi.md)
-- [SocialFi](web3/socialFi.md)
-- [DAO](ecosystem/DAO.md) -->
 
 ## Ethereum
 
@@ -54,7 +51,3 @@
 - [Wallet Connect](dapp/wallet-connect/README.md)
   - [Connect to Wallet](dapp/wallet-connect/connect-to-wallet.md)
 - [Transaction Interaction](dapp/transaction-interaction.md)
-
-<!-- ## 👓 Case Study
-
-- [Case 1](case-study/case1.md) -->
