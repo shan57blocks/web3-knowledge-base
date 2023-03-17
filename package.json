@@ -1,0 +1,18 @@
+{
+  "name": "57blocks-web3-knowledge-base",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "copy-files": "rimraf ./node_modules/npm/node_modules/graceful-fs",
+    "serve": "gitbook serve",
+    "plugin": "gitbook install",
+    "build": " gitbook build",
+    "deploy": " npm run plugin && npm run build"
+  },
+  "dependencies": {
+    "gitbook-cli": "2.1.2",
+    "gitbook-plugin-pageview-count": "^1.0.1",
+    "graceful-fs": "^4.2.10",
+    "rimraf": "^4.4.0"
+  }
+}

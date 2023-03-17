@@ -1,23 +1,24 @@
 # Table of contents
 
-- [🙌 Welcome](README.md)
+- [Welcome](README.md)
 
-## 🔗 Blockchain
+## Blockchain
 
-- [Wallet Address](blockchain/wallet-address.md)
-- [Transaction](blockchain/transaction.md)
-- [Consensus](blockchain/consensus.md)
+- [ Introduction](blockchain/README.md)
+- [ Wallet](blockchain/wallet.md)
+- [ Transaction](blockchain/transaction/README.md)
+  - [UTXO Model](blockchain/transaction/utxo-model.md)
+  - [Account Model](blockchain/transaction/account-model.md)
+  - [UTXO vs Account](blockchain/transaction/utxo-vs-account.md)
+- [ Consensus](blockchain/consensus.md)
 
-## 🌎 Ecosystem
+## Web3
 
-- [Web3](ecosystem/web3.md)
-- [DeFi](ecosystem/deFi.md)
-- [NFT](ecosystem/NFT.md)
-- [GameFi](ecosystem/gameFi.md)
-- [SocialFi](ecosystem/socialFi.md)
-- [DAO](ecosystem/DAO.md)
+- [Introduction](web3/README.md)
+- [DeFi](web3/deFi.md)
+- [NFT](web3/NFT.md)
 
-## 🚀 Ethereum
+## Ethereum
 
 - [Concepts](ethereum/concepts/README.md)
   - [Transaction](ethereum/concepts/transaction.md)
@@ -33,30 +34,23 @@
   - [Openzeppelin Defender](ethereum/tools/openzeppelin-defender.md)
   - [Chainlink Automation](ethereum/tools/chainlink-automation.md)
 
-## 🔍 Protocols
-
-- [Uniswap](protocols/uniswap.md)
-
-## 🔥 Smart Contract
+## Smart Contract
 
 - [Solidity](smart-contract/solidity.md)
-- [Testing/Deployment](smart-contract/testing-and-deployment.md)
+- [Patterns & Best Practices](smart-contract/patterns-&-best-practices.md)
+- [Test & Deployment](smart-contract/test-&-deployment.md)
 - [EVM](smart-contract/EVM.md)
 
-## 🚡 Middle Layer
+## Middle Layer
 
 - [Private Key Management](middle-layer/private-key-management.md)
 - [Event Listener](middle-layer/event-listener.md)
 - [Bot](middle-layer/bot.md)
 - [Testing](middle-layer/testing.md)
 
-## 💻 DApp
+## DApp
 
 - [What is Dapp](dapp/what-is-dapp.md)
 - [Wallet Connect](dapp/wallet-connect/README.md)
   - [Connect to Wallet](dapp/wallet-connect/connect-to-wallet.md)
 - [Transaction Interaction](dapp/transaction-interaction.md)
-
-## 👓 Case Study
-
-- [Case 1](case-study/case1.md)

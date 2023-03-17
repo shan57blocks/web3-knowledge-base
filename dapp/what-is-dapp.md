@@ -7,11 +7,11 @@ A dapp can have frontend code and user interfaces written in any language (just 
 - **Turing complete** - dapps can perform any action given the required resources
 - **Isolated** - dapps are executed in a virtual environment known as Ethereum Virtual Machine so that if the smart contract has a bug, it won’t hamper the normal functioning of the blockchain network
 
-## Architecture of Dapp
+# Architecture of Dapp
 
 ![Architecture of Dapp](../assets/images/architecture-of-dapp.png)
 
-## Dapp Frontend
+# Dapp Frontend
 
 For this tutorial, we will focus on frontend side of Dapp.
 
