@@ -1,8 +1,8 @@
 # Introduction
 
-An introduction to the basics of blockchain.
-
 _martin@57blocks.com_
+
+An introduction to the basics of blockchain.
 
 ## What is blockchain?
 
