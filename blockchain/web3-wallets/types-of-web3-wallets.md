@@ -34,11 +34,11 @@ Web3 wallets are not all built the same, and nowadays, there are more options th
 
 To understand this further, let’s look at the different types of web3 wallets, what their use cases are, and why they’re important:
 
-![](../../assets/images/Web3WalletsAndWalletAddress/The-Cryptocurrency-Wallet-Landscape-in-the-Blockchain-and-Web3-World.png)
+![](../../assets/images/Web3Wallets/The-Cryptocurrency-Wallet-Landscape-in-the-Blockchain-and-Web3-World.png)
 
 ### Hot Wallets vs. Cold Wallets
 
-![](../../assets/images/Web3WalletsAndWalletAddress/hot-and-cold-wallets.png)
+![](../../assets/images/Web3Wallets/hot-and-cold-wallets.png)
 
 #### Hot Wallets
 
@@ -76,7 +76,7 @@ A paper wallet is a piece of paper consisting of which a blockchain address and 
 
 Centralized and decentralized exchanges have operated in parallel and occupy an important role throughout digital currencies. Although Decentralized Exchanges have not had their popularity until recently, they have played an increasing role today. With the rise of Defi enabling a new breed of financial products, it’s crucial to know how wallets play a role within the ecosystem.
 
-![](../../assets/images/Web3WalletsAndWalletAddress/cex_dex.png)
+![](../../assets/images/Web3Wallets/cex_dex.png)
 
 #### Standard Crypto Exchanges
 

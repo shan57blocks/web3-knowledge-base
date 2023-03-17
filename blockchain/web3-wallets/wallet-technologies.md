@@ -21,14 +21,14 @@ There are two primary types of wallets, distinguished by whether the keys they c
 Deterministic, or "seeded," wallets are wallets that contain private keys that are all derived from a common seed, through the use of a one-way hash function. The seed is a randomly generated number that is combined with other data, such as an index number or "chain code" to derive the private keys. In a deterministic wallet, the seed is sufficient to recover all the derived keys, and therefore a single backup at creation time is sufficient. The seed is also sufficient for a wallet export or import, allowing for easy migration of all the user’s keys between different wallet implementations.
 
 Type-1 deterministic (seeded) wallet: a deterministic sequence of keys derived from a seed shows a logical diagram of a deterministic wallet.
-![](../../assets/images/Web3WalletsAndWalletAddress/deterministic-wallet.png)
+![](../../assets/images/Web3Wallets/deterministic-wallet.png)
 
 ### HD Wallets ([BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)/[BIP-44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki))
 
 Deterministic wallets were developed to make it easy to derive many keys from a single "seed". The most advanced form of deterministic wallets is the HD wallet defined by the [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) standard. HD wallets contain keys derived in a tree structure, such that a parent key can derive a sequence of children keys, each of which can derive a sequence of grandchildren keys, and so on, to an infinite depth.
 
 This tree structure is illustrated in Type-2 HD wallet: a tree of keys generated from a single seed.
-![](../../assets/images/Web3WalletsAndWalletAddress/HD-wallet.png)
+![](../../assets/images/Web3Wallets/HD-wallet.png)
 
 HD wallets offer two major advantages over random (nondeterministic) keys. First, the tree structure can be used to express additional organizational meaning, such as when a specific branch of subkeys is used to receive incoming payments and a different branch is used to receive change from outgoing payments. Branches of keys can also be used in corporate settings, allocating different branches to departments, subsidiaries, specific functions, or accounting categories.
 
@@ -43,7 +43,7 @@ HD wallets are a very powerful mechanism for managing many keys and addresses. T
 Every key in the HD wallet is deterministically derived from this root seed, which makes it possible to re-create the entire HD wallet from that seed in any compatible HD wallet. This makes it easy to back up, restore, export, and import HD wallets containing thousands or even millions of keys by simply transferring only the mnemonic that the root seed is derived from.
 
 Creating master keys and chain code from a root seed
-![](../../assets/images/Web3WalletsAndWalletAddress/Creating-master-keys-and-chain-code-from-a-root-seed.png)
+![](../../assets/images/Web3Wallets/Creating-master-keys-and-chain-code-from-a-root-seed.png)
 
 The root seed is input into the HMAC-SHA512 algorithm and the resulting hash is used to create a master private key (m) and a master chain code (c).
 
