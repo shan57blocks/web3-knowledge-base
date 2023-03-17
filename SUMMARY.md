@@ -5,7 +5,7 @@
 ## Blockchain
 
 - [Introduction](blockchain/README.md)
-- [Web3 Wallets]
+- [Web3 Wallets](blockchain/web3-wallets/README.md)
   - [Types Of Web3 Wallets](blockchain/web3-wallets/types-of-web3-wallets.md)
   - [Wallet Technologies](blockchain/web3-wallets/wallet-technologies.md)
   - [MetaMask Wallet](blockchain/web3-wallets/metamask-wallet.md)

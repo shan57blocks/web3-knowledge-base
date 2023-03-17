@@ -1,6 +1,6 @@
 # MetaMask Wallet
 
-*Author: shu@57blocks.com*
+*shu@57blocks.com*
 
 The most popular ETH wallet at present.
 ![](../../assets/images/Web3Wallets/MetaMask_Fox.png)

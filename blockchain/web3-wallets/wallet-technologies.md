@@ -1,6 +1,6 @@
 # Wallet Technologies
 
-*Author: shu@57blocks.com*
+*shu@57blocks.com*
 
 This document describes the implementation technologies of web3 wallet, which will help developers understand the working mechanism of web3 wallet more deeply.
 

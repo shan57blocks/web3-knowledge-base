@@ -1,6 +1,6 @@
 # Types Of Web3 Wallets 
 
-*Author: shu@57blocks.com*
+*shu@57blocks.com*
 
 This document describes the different types of web3 wallets and gives you a glimpse into web3 wallets.
 
