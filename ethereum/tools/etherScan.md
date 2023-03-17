@@ -1,6 +1,6 @@
-*Author: lily.hu*
+# What is EtherScan?
 
-## What is EtherScan?
+*lily@gmail.com*
 
 [Etherscan](https://etherscan.io/) is a block explorer for the Ethereum blockchain. You can use this free tool to view any past transaction, wallet, smart contract, NFT, and anything else you may want to view in the history of Ethereum. It allows users to easily search and browse transactions and blocks. It also provides information about each transaction and block, such as the hash and timestamp.
 
@@ -55,9 +55,13 @@ EtherScan API Endpoints including the following categories:
 ## Recommended Reading
 
 Principle and function introduction:
-- [What is Etherscan and how do you use it? on moonpay](https://www.moonpay.com/blog/what-is-etherscan#what-is-etherscan)
-- [What is Etherscan and how do you use it? on cointelegraph](https://cointelegraph.com/news/what-is-etherscan-and-how-does-it-work)
 
-Instructions for use
-- [What Is Etherscan and How to Use It? on academy](https://academy.binance.com/en/articles/what-is-etherscan-and-how-to-use-it)
-- [What Is Etherscan and How to Use It? on bybit](https://learn.bybit.com/blockchain/what-is-etherscan/)
+[What is Etherscan and how do you use it? on moonpay](https://www.moonpay.com/blog/what-is-etherscan#what-is-etherscan)
+
+[What is Etherscan and how do you use it? on cointelegraph](https://cointelegraph.com/news/what-is-etherscan-and-how-does-it-work)
+
+Instructions for use:
+
+[What Is Etherscan and How to Use It? on academy](https://academy.binance.com/en/articles/what-is-etherscan-and-how-to-use-it)
+
+[What Is Etherscan and How to Use It? on bybit](https://learn.bybit.com/blockchain/what-is-etherscan/)
