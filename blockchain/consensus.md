@@ -1,8 +1,8 @@
 # Consensus
 
-An introduction to the consensus mechanism of blockchain.
-
 _martin@57blocks.com_
+
+An introduction to the consensus mechanism of blockchain.
 
 ## What is consensus？
 
