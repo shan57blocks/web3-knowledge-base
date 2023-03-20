@@ -1,6 +1,6 @@
 # What is Chainlink Automation?
 
-*lily@gmail.com*
+*lily@57blocks.com*
 
 [Chainlink Automation](https://chain.link/automation) uses a decentralized network to monitor your automation logic securely and cost-efficiently off-chain, and then initiate an on-chain transaction to execute the smart contract function when predefined conditions are met.
 

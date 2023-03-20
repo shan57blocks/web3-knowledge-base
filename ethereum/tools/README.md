@@ -1,6 +1,6 @@
 # Tools
 
-*lily@gmail.com*
+*lily@57blocks.com*
 
 The tool catalog introduces some libraries and platforms, deployment tools and back-end integration tools commonly used in blockchain projects.
 
