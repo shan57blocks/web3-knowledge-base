@@ -1,6 +1,9 @@
 # Table of contents
 
+## Getting Started
+
 - [Welcome](README.md)
+- [Offline Support](welcome/offline-support.md)
 
 ## Blockchain
 
@@ -51,3 +54,7 @@
 - [Wallet Connect](dapp/wallet-connect/README.md)
   - [Connect to Wallet](dapp/wallet-connect/connect-to-wallet.md)
 - [Transaction Interaction](dapp/transaction-interaction.md)
+
+## The End
+
+- [Acknowledgement](acknowledgement/README.md)
