@@ -1,6 +1,6 @@
-*Author: lily.hu*
+# What is Ethers?
 
-## What is Ethers?
+*lily@57blocks.com*
 
 The ethers.js library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem. It enables us to easily interact with the Ethereum blockchain using Javascript.
 

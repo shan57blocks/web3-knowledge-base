@@ -1,6 +1,6 @@
-*Author: lily.hu*
+# What is Openzeppelin Defender
 
-## What is Openzeppelin Defender
+*lily@57blocks.com*
 
 [OpenZeppelin Defender](https://www.openzeppelin.com/defender) is a web-based application that allows developers to perform and automate smart contract operations in a secure way.
 

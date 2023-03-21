@@ -1,6 +1,6 @@
-*Author: lily.hu*
+# What is Alchemy?
 
-## What is Alchemy?
+*lily@57blocks.com*
 
 [Alchemy](https://www.alchemy.com/) is a powerful blockchain developer platform providing a suite of developer tools. It empowers companies to build scalable and reliable decentralized applications without the hassle of managing blockchain infrastructure in-house. So far we often use it as a node provider in our projects. 
 

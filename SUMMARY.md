@@ -7,10 +7,16 @@
 
 ## Blockchain
 
-- [ Introduction](blockchain/README.md)
-- [ Wallet](blockchain/wallet.md)
-- [ Transaction](blockchain/transaction.md)
-- [ Consensus](blockchain/consensus.md)
+- [Introduction](blockchain/README.md)
+- [Web3 Wallets](blockchain/web3-wallets/README.md)
+  - [Types Of Web3 Wallets](blockchain/web3-wallets/types-of-web3-wallets.md)
+  - [Wallet Technologies](blockchain/web3-wallets/wallet-technologies.md)
+  - [MetaMask Wallet](blockchain/web3-wallets/metamask-wallet.md)
+- [Transaction](blockchain/transaction/README.md)
+  - [UTXO Model](blockchain/transaction/utxo-model.md)
+  - [Account Model](blockchain/transaction/account-model.md)
+  - [UTXO vs Account](blockchain/transaction/utxo-vs-account.md)
+- [Consensus](blockchain/consensus.md)
 
 ## Web3
 
